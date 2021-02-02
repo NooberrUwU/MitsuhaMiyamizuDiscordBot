@@ -26,6 +26,8 @@ class zoomid(commands.Cog):
 
 		time.sleep(30)
 		# await message1.delete()
+		messageX = ctx.m
+		await messageX.delete()
 		await message2.delete()
 
 def setup(client):
